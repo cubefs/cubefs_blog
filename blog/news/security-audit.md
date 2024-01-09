@@ -28,8 +28,10 @@ In the context of software supply-chain security, Ada Logics found that CubeFS m
 
 CubeFS maintains an open security disclosure policy. If you are interested in contributing to CubeFS’s security, you are welcome to submit your findings by following [the security guidelines](https://github.com/cubefs/cubefs/security). In addition, CubeFS has [an open meeting schedule](https://github.com/cubefs/cubefs-community-meetings/wiki/Meeting-Schedule) where community members are welcome to join. 
 
+We would like to thank the team Ada Logics, Adam and David Korczynski and their team, for their hard work and contributions in making this successful audit possible. We would like to thank the team at CubeFS, specifically Leon Chang, Lei Zhang, Xiaochun He, and Baijiaruo for their clarity, expertise, and kindness over the course of this engagement. They were an extremely responsive team, and active participants in the audit in a way that benefits not just the engagement, but project users and contributors.Finally, this would not have been possible without the funding and support of the CNCF. Open source security work is made possible by their contributions and foundation. 
+
 Links:
 *	[Full audit report](https://github.com/cubefs/cubefs/blob/master/security/CubeFS-security-audit-2023-report.pdf)
-*	[CNCF blog post]()
+*	[CNCF blog post](https://www.cncf.io/blog/2024/01/08/cubefs-completes-security-audit/)
 *	[Ada Logics blog post]()
 *	[OSTIF blog post](https://ostif.org/cubefs-audit-complete/)
