@@ -27,8 +27,10 @@ CubeFS 团队已修复审核结束时发现的所有问题。所有问题均已�
 
 CubeFS 维护开放的安全披露政策。如果您有兴趣为 CubeFS 的安全做出贡献，欢迎您通过以下方式提交您的发现 [the security guidelines](https://github.com/cubefs/cubefs/security). 此外，CubeFS还有 [an open meeting schedule](https://github.com/cubefs/cubefs-community-meetings/wiki/Meeting-Schedule) 欢迎社区成员加入。 
 
+我们要感谢 Ada Logics 团队、Adam 和 David Korczynski 及其团队的辛勤工作和贡献，使这次审计得以成功。我们要感谢 CubeFS 的团队，特别是 Leon Chang、Lei Zhang、Xiaochun He 和 Baijiaruo，感谢他们在整个参与过程中的清晰、专业和友善。他们是一支反应极其灵敏的团队，积极参与审计，不仅有利于参与，而且有利于项目用户和贡献者。最后，如果没有 CNCF 的资助和支持，这是不可能实现的。他们的贡献和基础使开源安全工作成为可能
+
 Links:
 *	[Full audit report](https://github.com/cubefs/cubefs/blob/master/security/CubeFS-security-audit-2023-report.pdf)
-*	[CNCF blog post]()
+*	[CNCF blog post](https://www.cncf.io/blog/2024/01/08/cubefs-completes-security-audit/)
 *	[Ada Logics blog post]()
 *	[OSTIF blog post](https://ostif.org/cubefs-audit-complete/)
