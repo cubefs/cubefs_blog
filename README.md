@@ -1,52 +1,54 @@
 # cubefs_blog
 the latest application practice of cubefs
 
-# 博客更新流程
+# Blog update process
 
-## 整体目录结构
-```html
+## Overall directory structure
+```ts
 .
-├── blog //存放英文博客
-│   ├── bestPractices // 博客目录
+├── blog // Host English Blogs
+│   ├── bestPractices // Blog Directory
 │   │   ├── bigo.md
 │   │   ├── jd.md
 │   │   └── ...
 │   ├── communityMeetings
 │   ├── news
 │   ├── ...
-│   └── README.md 博客英文栏目菜单结构
-├── zh-blog // 存放中文博客
-│   ├── bestPractices // 博客目录
+│   └── README.md // English blog menu category structure
+├── zh-blog // Host Chinese Blogs
+│   ├── bestPractices // Blog Directory
 │   │   ├── bigo.md
 │   │   └── jd.md
 │   ├── communityMeetings
 │   ├── news
 │   ├── ...
-│   └── README.md 博客中文栏目菜单结构
-└── images // 存放博客图片资源等
-    ├── blog // 博客内容资源图
-    └── cover // 博客封面图
+│   └── README.md // Chinese blog menu category structure
+└── images // Store blog picture resources, etc
+    ├── blog // Blog content resource picture
+    └── cover // Blog cover image
 ```
 
-## 博客存放目录 blog、zh-blog
-博客存放目录按照栏目区分，bestPractices(最佳实践), communityMeetings(社区例会), news(官方动态), technicalInsights(技术揭秘), useCases(用户案例)等等，博客md文件存放于不同的目录下，这里并没有约束，按照目录区分只是为了更好的管理。 
+## Blog directory
 
-注意同一篇博客中文和英文应该放在**同一目录下且命名相同**，**最好都是通过英文和下划线命名**,例如 jd.md，中英文命名一致, 中英文分别放在zh-blog/bestPractices 和 blog/bestPractices下。这样在编译时就能够准确找到翻译的文章进行切换。
+### blog、zh-blog
+Blog directories are divided by columns, including bestPractices(Best Practices), communityMeetings(Community Meetings), news(News), technicalInsights(Technical Insights), useCases(use cases), etc. Blog md type files are stored in different directories, there is no constraint here, according to the directory distinction is just for better management.
 
-blog和zh-blog目录下的README.md文件，用于博客栏目菜单配置
+Note that the Chinese and English of the same blog should be placed in the same directory **and with the same name**, **it is best to name the blog by English and underline**, such as jd.md, the Chinese and English names are the same, and both are placed under zh-blog/bestPractices and blog/bestPractices respectively. In this way, the translation of the article can be found accurately at compile time to switch.
 
-配置如下，有**两种类型的博客**， 一种是**pdf**类型的博客，一种是**md**博客
-pdf类型的配置和md类型的有些许区别，type字段默认是md,只有是pdf类型的时候才需要type和pdfUrl字段
-md类型的博客特有字段是filePath，表示博客路径, 相对目录，相对于当前目录，用于生成博客的url链接
-其他字段都一致
+### README.md file in the blog and zh-blog directories for blog column menu configuration
+
+The configuration is as follows: there are **two types of blogs**, one is **pdf**  type blog, and the other is **md** type blog.
+The configuration for pdf type is a little different from md type. The type field defaults to md, and only when you are using pdf type, you need type and pdfUrl fields.
+The unique field for md type blog is filePath, which means the path of the blog, relative directory, relative to the current directory, which is used to generate the url link of the blog.
+All Other fields are the same.
 ```ts
 pages: [
   {
-    text: 'Technical Insights', // 栏目名称
-    children: [ // 栏目下的分类，
+    text: 'Technical Insights', // category name
+    children: [ // blogs in category
       {
         title: 'Secret of CubeFS Technology | Metadata Subsystem Design',
-        // filePath为博客路径, 相对目录，相对于当前目录，用于生成博客的url链接
+        // filePath is the blog path, relative directory, relative to the current directory, used to generate the url link of the blog
         filePath: 'technicalInsights/Secret_of_CubeFS_Technology_Metadata_Subsystem_Design',
         date: '2023-08-02',
         author: 'Zhixiang Tang',
@@ -54,33 +56,34 @@ pages: [
         desc: 'xxxxxxx',
       },
       {
-        title: 'CubeFS Erasure Code Subsystem Introduction', // 博客标题
-        pdfUrl: 'https://ocs-cn-north1.heytapcs.com/cubefs/website-file/CubeFs纠删码子系统介绍.pdf', // 博客pdf链接
-        type: 'pdf', // 表明该博客是pdf类型
-        date: '2021-12-09', // 博客日期
-        author: 'Zhixiang Tang', // 博客作者
-        coverUrl: '/images/cover/20230427100114704.png', // 博客封面图，在/images/cover目录下
-        desc: '', 描述
+        title: 'CubeFS Erasure Code Subsystem Introduction', // blog title
+        pdfUrl: 'https://ocs-cn-north1.heytapcs.com/cubefs/website-file/CubeFs纠删码子系统介绍.pdf', // blog pdf url
+        type: 'pdf', // Indicates that the blog is a pdf
+        date: '2021-12-09', // blog date
+        author: 'Zhixiang Tang', // blog author
+        coverUrl: '/images/cover/20230427100114704.png', //blog cover image and the blog cover is in the /images/cover directory
+        desc: '', // description
       },
     ]
   }
 ]
 ```
-![image](/images/blog/introduce_blog.png)
+![image](/images/blog/introduce_blog_en.png)
 
 
-## 资源放置
+## Resource placement
 
-博客封面图放置在/images/cover目录下
-博客文章资源放置在/images/blog目录下
+blog cover image is placed under the /images/cover directory
+
+blog article resources are placed in the /images/blog directory
 
 ## 特别注意
 
-1. 以往的博客内容开头都有下面内容，现在的博客可以不需要了，编译阶段会判断有没有，没有的自动加上，保持博客的原始性
+1. The previous blog content has the following content at the beginning, and now the blog can not be needed, the compilation stage will judge whether there is no automatic addition, to maintain the original of the blog
 ```
 ---
 blog: true
 ---
 ```
 
-2. 博客在官网的排序是按照日期来的，并不是按照配置文件的顺序。
+2. Blogs are sorted by date on the official website, not by profile order.
