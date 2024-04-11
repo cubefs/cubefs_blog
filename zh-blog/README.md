@@ -157,6 +157,14 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
         coverUrl: '/images/cover/CubeFS_EC_Engine_Raft_Application_Practice.png',
         desc: '本文主要介绍CubeFS纠删码(Erasure Coding)服务的元数据管理模块(Blobstore/ClusterMgr）、Raft算法实践以及日常运维建议。'
       },
+      {
+        title: 'Kubernetes CSI 历史与现状',
+        filePath: 'technicalInsights/The_history_of_k8s_csi',
+        date: '2024-04-18',
+        author: 'Mingwei Gong',
+        coverUrl: '/images/cover/CubeFS_k8s_csi_history_banner.png',
+        desc: '一篇 kubernetes 存储相关的科普文，主要介绍 kubernetes 存储插件协议的演进过程。'
+      },
     ]
   },
   {

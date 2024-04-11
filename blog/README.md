@@ -147,6 +147,14 @@ pages: [
         coverUrl: '/images/cover/CubeFS_EC_Engine_Raft_Application_Practice.png',
         desc: 'The given text describes the CubeFS erasure coding service’s metadata management module (Blobstore/ClusterMgr), Raft algorithm practice, and daily operation recommendations.'
       },
+      {
+        title: 'Kubernetes CSI history and current situation',
+        filePath: 'technicalInsights/The_history_of_k8s_csi',
+        date: '2024-04-18',
+        author: 'Mingwei Gong',
+        coverUrl: '/images/cover/CubeFS_k8s_csi_history_banner.png',
+        desc: 'A popular science article about kubernetes storage, mainly introducing the evolution of kubernetes storage plugin protocol.'
+      },
     ]
   },
   {
