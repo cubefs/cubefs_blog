@@ -72,6 +72,14 @@ pages: [
         coverUrl: '/images/cover/security_audit_cover.jpg',
         desc: 'CubeFS is happy to announce the completion of its third-party security audit. The audit was conducted by Ada Logics in collaboration with the CubeFS maintainers, OSTIF and the CNCF.',
       },
+      {
+        title: 'Play with object storage',
+        filePath: 'news/play_with_object_storage',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/play_with_object_storage.png',
+        desc: 'Through this article, users are familiar with the configuration of CubeFS object gateway and how to access object resources through the open source Amazon S3 command line tool s3cmd.',
+      },
     ]
   },
   {
