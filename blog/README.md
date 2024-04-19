@@ -72,6 +72,14 @@ pages: [
         coverUrl: '/images/cover/security_audit_cover.jpg',
         desc: 'CubeFS is happy to announce the completion of its third-party security audit. The audit was conducted by Ada Logics in collaboration with the CubeFS maintainers, OSTIF and the CNCF.',
       },
+      {
+        title: 'CubeFS Autofs practice',
+        filePath: 'news/cubefs_autofs_practice',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/cubefs_autofs_practice.png',
+        desc: 'This article focuses on CubeFS support for mount, Autofs features, and their application in conjunction with surrounding ecosystems such as SSSD [3], and LDAP [4].',
+      },
     ]
   },
   {
