@@ -213,6 +213,19 @@ pages: [
     ]
   },
   {
+    text: 'Getting Start Series',
+    children: [
+      {
+        filePath: 'startSeries/cubeFS_object_storage_lifecycle_management_strategies',
+        date: '2024-04-22',
+        author: 'CubeFS',
+        title: 'CubeFS 10 Minutes Start - Get to grips with CubeFS object storage lifecycle management strategies',
+        coverUrl: '/images/cover/cubeFS_object_storage_lifecycle_management_strategies.jpg',
+        desc: 'By default, data in CubeFS is kept permanently, and in order to store data cost-effectively throughout its lifecycle, CubeFS supports an AWS S3-compatible object storage lifecycle management strategy. CubeFS currently supports lifecycle expiration deletion policies, which can effectively clean up expired data and release storage resources. This article will guide you to understand how to use CubeFS object storage lifecycle management policies.',
+      },
+    ]
+  },
+  {
     text: 'Community Meetings',
     children: [
       {
