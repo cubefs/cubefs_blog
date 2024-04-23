@@ -73,11 +73,11 @@ make cli
 ## Deployment
 
 - The deployment script creates four new IPs using network card aliases for service deployment
-![single-node Deployment bond0](../../images/blog/single-node_Deployment_bond0.png)
+![single-node Deployment bond0](/images/blog/single-node_Deployment_bond0.png)
 
 - Deployment service topology diagram as follows
 
-![single-node Deployment topo](../../images/blog/single-node_Deployment_topo.png)
+![single-node Deployment topo](/images/blog/single-node_Deployment_topo.png)
 
 - Execute the deployment script to start the cluster
 
@@ -94,7 +94,7 @@ sh ./shell/depoly.sh /home/data bond0
 
 bond0: The name of the local machine's network card, as follows, needs to be filled in according to the local situation
 
-![single-node Deployment ifconfig](../../images/blog/single-node_Deployment_ifconfig.png)
+![single-node Deployment ifconfig](/images/blog/single-node_Deployment_ifconfig.png)
 
 
 - View cluster status  
