@@ -1,3 +1,7 @@
+---
+blog: true
+---
+
 # CubeFS 10 Minutes Start - Single-node Deployment of CubeFS Cluster
 Original by Xuewei Zeng, CubeFS, March 7, 2023, 20:00, Guangdong
 
