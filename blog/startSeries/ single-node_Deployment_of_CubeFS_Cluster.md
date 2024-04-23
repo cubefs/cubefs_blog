@@ -1,7 +1,3 @@
----
-blog: true
----
-
 # CubeFS 10 Minutes Start - Single-node Deployment of CubeFS Cluster
 Original by Xuewei Zeng, CubeFS, March 7, 2023, 20:00, Guangdong
 
@@ -81,10 +77,10 @@ make cli
 
 - Execute the deployment script to start the cluster
 
-* Require root permissions
-* Able to use ifconfig
-* Machine memory is above 4G
-* The remaining space of the disk corresponding to /home/data is preferably above 20G
+  - Require root permissions
+  - Able to use ifconfig
+  - Machine memory is above 4G
+  - The remaining space of the disk corresponding to /home/data is preferably above 20G
 
 ```bash
 sh ./shell/depoly.sh /home/data bond0

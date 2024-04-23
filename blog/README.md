@@ -147,6 +147,15 @@ pages: [
         coverUrl: '/images/cover/CubeFS_EC_Engine_Raft_Application_Practice.png',
         desc: 'The given text describes the CubeFS erasure coding service’s metadata management module (Blobstore/ClusterMgr), Raft algorithm practice, and daily operation recommendations.'
       },
+       {
+        title: 'Introduction to CubeFS Quota Feature',
+        filePath: 'technicalInsights/Introduction_to_CubeFS_quota_features',
+        date: '2023-11-10',
+        author: 'Yao Hu',
+        coverUrl: '/images/cover/Introduction_to_CubeFS_quota_features.png',
+        desc: 'In storage systems, quotas are a technique for managing and controlling the use of storage resources. They can help system administrators effectively manage storage resources, ensuring their rational allocation and utilization.'
+      },
+     
     ]
   },
   {
@@ -225,8 +234,8 @@ pages: [
       },
        {
         filePath: 'startSeries/single-node_Deployment_of_CubeFS_Cluster',
-        date: '2024-04-22',
-        author: 'CubeFS',
+        date: '2023-03-07',
+        author: 'Xuewei Zeng',
         title: 'CubeFS 10 Minutes Start - Single-node Deployment of CubeFS Cluster',
         coverUrl: '/images/cover/single-node_Deployment_of_CubeFS_Cluster.png',
         desc: 'Introduces how to quickly set up a single-node CubeFS cluster without using Docker.',
