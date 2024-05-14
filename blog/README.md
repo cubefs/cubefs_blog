@@ -72,6 +72,14 @@ pages: [
         coverUrl: '/images/cover/security_audit_cover.jpg',
         desc: 'CubeFS is happy to announce the completion of its third-party security audit. The audit was conducted by Ada Logics in collaboration with the CubeFS maintainers, OSTIF and the CNCF.',
       },
+      {
+        title: 'Easily master CubeFS object storage life cycle management strategies',
+        filePath: 'news/easily_master_cubefs_object_storage_life_cycle_management_strategies',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/security_audit_cover.jpg',
+        desc: 'This article will lead you to understand how to use the CubeFS object storage life cycle management policy.',
+      },
     ]
   },
   {
