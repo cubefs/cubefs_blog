@@ -72,6 +72,14 @@ pages: [
         coverUrl: '/images/cover/security_audit_cover.jpg',
         desc: 'CubeFS is happy to announce the completion of its third-party security audit. The audit was conducted by Ada Logics in collaboration with the CubeFS maintainers, OSTIF and the CNCF.',
       },
+      {
+        title: 'CubeFS in NetEase game business practice',
+        filePath: 'news/cubefs_in_netease_game_business_practice',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/cubefs_in_netease_game_business_practice.png',
+        desc: 'Elasticsearch hosting platform is the elasticsearch saas platform of NetEase Games internal benchmark against external cloud providers. It can quickly create, easily manage, expand and shrink ES clusters, and simplify complex operation and maintenance operations.',
+      },
     ]
   },
   {
