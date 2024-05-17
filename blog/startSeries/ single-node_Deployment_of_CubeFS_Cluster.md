@@ -30,10 +30,9 @@ wget https://ocs-cn-north1.heytapcs.com/cubefs/bin/linux_centos_7_6_amd64.tar.gz
 tar linux_centos_7_6_amd64.tar.gz
 
 tree ./build/bin
-build/bin/
-â”œâ”€â”€ cfs-cli
-â”œâ”€â”€ cfs-client
-â””â”€â”€ cfs-server
+©À©¤©¤ cfs-cli
+©À©¤©¤ cfs-client
+©¸©¤©¤ cfs-server
 ```
 Note: Use `./build/bin/cfs-server -v` to check. If there is an error, you will need to compile the binaries manually.
 
