@@ -88,6 +88,14 @@ pages: [
         coverUrl: '/images/cover/play_with_object_storage.png',
         desc: 'Through this article, users are familiar with the configuration of CubeFS object gateway and how to access object resources through the open source Amazon S3 command line tool s3cmd.',
       },
+      {
+        title: 'CubeFS Autofs practice',
+        filePath: 'news/cubefs_autofs_practice',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/cubefs_autofs_practice.png',
+        desc: 'This article focuses on CubeFS support for mount, Autofs features, and their application in conjunction with surrounding ecosystems such as SSSD [3], and LDAP [4].',
+      },
     ]
   },
   {
