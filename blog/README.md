@@ -80,6 +80,14 @@ pages: [
         coverUrl: '/images/cover/cubefs_in_netease_game_business_practice.png',
         desc: 'Elasticsearch hosting platform is the elasticsearch saas platform of NetEase Games internal benchmark against external cloud providers. It can quickly create, easily manage, expand and shrink ES clusters, and simplify complex operation and maintenance operations.',
       },
+      {
+        title: 'Play with object storage',
+        filePath: 'news/play_with_object_storage',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/play_with_object_storage.png',
+        desc: 'Through this article, users are familiar with the configuration of CubeFS object gateway and how to access object resources through the open source Amazon S3 command line tool s3cmd.',
+      },
     ]
   },
   {
