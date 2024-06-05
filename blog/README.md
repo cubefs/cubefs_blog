@@ -72,6 +72,30 @@ pages: [
         coverUrl: '/images/cover/security_audit_cover.jpg',
         desc: 'CubeFS is happy to announce the completion of its third-party security audit. The audit was conducted by Ada Logics in collaboration with the CubeFS maintainers, OSTIF and the CNCF.',
       },
+      {
+        title: 'CubeFS in NetEase game business practice',
+        filePath: 'news/cubefs_in_netease_game_business_practice',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/cubefs_in_netease_game_business_practice.png',
+        desc: 'Elasticsearch hosting platform is the elasticsearch saas platform of NetEase Games internal benchmark against external cloud providers. It can quickly create, easily manage, expand and shrink ES clusters, and simplify complex operation and maintenance operations.',
+      },
+      {
+        title: 'Play with object storage',
+        filePath: 'news/play_with_object_storage',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/play_with_object_storage.png',
+        desc: 'Through this article, users are familiar with the configuration of CubeFS object gateway and how to access object resources through the open source Amazon S3 command line tool s3cmd.',
+      },
+      {
+        title: 'CubeFS Autofs practice',
+        filePath: 'news/cubefs_autofs_practice',
+        date: '2024-05-24',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/cubefs_autofs_practice.png',
+        desc: 'This article focuses on CubeFS support for mount, Autofs features, and their application in conjunction with surrounding ecosystems such as SSSD [3], and LDAP [4].',
+      },
     ]
   },
   {
@@ -155,6 +179,14 @@ pages: [
         coverUrl: '/images/cover/CubeFS_k8s_csi_history_banner.png',
         desc: 'A popular science article about kubernetes storage, mainly introducing the evolution of kubernetes storage plugin protocol.'
       },
+       {
+        title: 'Introduction to CubeFS Quota Feature',
+        filePath: 'technicalInsights/Introduction_to_CubeFS_quota_features',
+        date: '2023-11-10',
+        author: 'Yao Hu',
+        coverUrl: '/images/cover/Introduction_to_CubeFS_quota_features.png',
+        desc: 'In storage systems, quotas are a technique for managing and controlling the use of storage resources. They can help system administrators effectively manage storage resources, ensuring their rational allocation and utilization.'
+      },
     ]
   },
   {
@@ -218,6 +250,27 @@ pages: [
       coverUrl: '/images/cover/erasure_code_technology_practice.png',
       desc: 'Generally speaking, a storage system ensures reliability by storing a certain amount of redundant data. When the system fails, the redundant data can continue to provide users with various services and repair some data lost due to the failure. The current mainstream fault-tolerant mechanisms are roughly divided into two types: multi-copy mechanism and erasure code mechanism. Since redundant data will increase storage costs, and the redundant storage overhead of multiple copies is too large compared to erasure codes, erasure codes have become the mainstream data redundancy method for current cloud storage systems, and continue to be a popular topic in the academic world. and industry research hotspots in the field of storage.',
     },
+    ]
+  },
+  {
+    text: 'Getting Start Series',
+    children: [
+      {
+        filePath: 'startSeries/cubeFS_object_storage_lifecycle_management_strategies',
+        date: '2024-04-22',
+        author: 'CubeFS',
+        title: 'CubeFS 10 Minutes Start - Get to grips with CubeFS object storage lifecycle management strategies',
+        coverUrl: '/images/cover/cubeFS_object_storage_lifecycle_management_strategies.jpg',
+        desc: 'By default, data in CubeFS is kept permanently, and in order to store data cost-effectively throughout its lifecycle, CubeFS supports an AWS S3-compatible object storage lifecycle management strategy. CubeFS currently supports lifecycle expiration deletion policies, which can effectively clean up expired data and release storage resources. This article will guide you to understand how to use CubeFS object storage lifecycle management policies.',
+      },
+       {
+        filePath: 'startSeries/single-node_Deployment_of_CubeFS_Cluster',
+        date: '2023-03-07',
+        author: 'Xuewei Zeng',
+        title: 'CubeFS 10 Minutes Start - Single-node Deployment of CubeFS Cluster',
+        coverUrl: '/images/cover/single-node_Deployment_of_CubeFS_Cluster.png',
+        desc: 'Introduces how to quickly set up a single-node CubeFS cluster without using Docker.',
+      },
     ]
   },
   {
