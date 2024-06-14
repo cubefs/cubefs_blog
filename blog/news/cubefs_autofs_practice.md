@@ -14,7 +14,7 @@ This article focuses on CubeFS's support for mount, Autofs features, and their a
 
 Cfsauto [5] program achieves CubeFS client-side file system mounting, Fuse file system mounting list display, and other functions by converting mount options into CubeFS parameters.
 
-![CubeFS Autofs LDAP scenario diagram](../../images/blog/autofs.png)
+![CubeFS Autofs LDAP scenario diagram](/images/blog/autofs.png)
 
 ## deploy
 
@@ -84,7 +84,7 @@ autodir -fstype=fuse,subdir=subdir,volName=vol3,owner=cfs,masterAddr=10.0.0.1:17
 
 Mounting Example:
 
-![](../../images/blog/autofs_mount.png)
+![](/images/blog/autofs_mount.png)
 
 ## Integrated SSSD LDAP auto-mounting
 
@@ -100,7 +100,7 @@ automountInformation configures the CubeFS mount options as follows:
 -fstype=fuse,subdir=subd,volName=project1,owner=123,accessKey=abc,secretKey=xyz,masterAddr=10.0.0.12:17010,logDir=/var/logs/cfs/log,enablePosixACL,logLevel=debug :cfsauto
 ```
 
-![LDAP automount configuration example](../../images/blog/autofs_ldap.png)
+![LDAP automount configuration example](/images/blog/autofs_ldap.png)
 
 ### SSSD Configuration
 Key configuration examples for the autofs module in SSSD:
@@ -118,7 +118,7 @@ ldap_autofs_entry_value    = automountInformation
 
 ### Mounting Example
 
-![img.png](../../images/blog/sssd_mount.png)
+![img.png](/images/blog/sssd_mount.png)
 
 ## Summary
 

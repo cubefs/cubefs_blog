@@ -6,11 +6,11 @@ blog: true
 
 Elasticsearch's hosting platform is the elasticsearch saas platform of NetEase Games' internal benchmark against external cloud providers. It can quickly create, easily manage, expand and shrink ES clusters, and simplify complex operation and maintenance operations.
 
-![](../../images/blog/Instance_management.png)
+![](/images/blog/Instance_management.png)
 
 ### ES deployment architecture
 
-![](../../images/blog/deployment_architecture.png)
+![](/images/blog/deployment_architecture.png)
 
 A cluster is created and spread out on different hosts. The hosts mix nodes of multiple ES clusters. Users access the ES cluster through a LoaldBalance service, which provides whitelist restrictions and limits CPU memory through Docker. Disk storage does RAID 10 for local disks and limits the disk space that can be used through LVM.
 
@@ -40,7 +40,7 @@ Separating computing and storage seems to solve most problems? At this time, cub
   
   * Physical SSD Higher SLA and performance
 
-![](../../images/blog/basic_configuration.png)
+![](/images/blog/basic_configuration.png)
 
 ####  SSD multi-CFS cluster
 
@@ -158,7 +158,7 @@ The currently used capacity is several PB (actually 1.5 copies are stored). Unde
 
 Tmax one-stop machine learning platform covers the entire process of machine learning engineering development [data management -> algorithm research and development -> model training -> service stress testing -> deployment -> A/B testing -> online -> online maintenance]
 
-![](../../images/blog/learning_business.png)
+![](/images/blog/learning_business.png)
 
 Early data volume storage used nfs + local disk SSD and other distributed storage, k8s scheduling + corresponding csi plug-in
 
@@ -188,7 +188,7 @@ Adopt k8s init container + write app server + k8s host path solution
 
 The main container will be started only after all Init Containers have been executed.
 
-![](../../images/blog/final_proposal.png)
+![](/images/blog/final_proposal.png)
 
 1. The pod calls the init Container shared host Socket to mount the volume to the host.
 
