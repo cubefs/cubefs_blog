@@ -77,7 +77,7 @@ blog cover image is placed under the /images/cover directory
 
 blog article resources are placed in the /images/blog directory
 
-## 特别注意
+## attention
 
 1. The previous blog content has the following content at the beginning, and now the blog can not be needed, the compilation stage will judge whether there is no automatic addition, to maintain the original of the blog
 ```
