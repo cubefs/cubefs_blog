@@ -96,6 +96,16 @@ pages: [
         coverUrl: '/images/cover/cubefs_autofs_practice.png',
         desc: 'This article focuses on CubeFS support for mount, Autofs features, and their application in conjunction with surrounding ecosystems such as SSSD [3], and LDAP [4].',
       },
+      {
+        title: 'CNCF Report: CubeFS Ranks Among the Top 4 in the Field of Batch/AI/ML Computing Technologies',
+        pdfUrl: 'https://cubefs-rs.heytapdownload.com/website-file/CNCF-Tech-Radar-Custom-Survey-Research-Insights.pdf',
+        type: 'pdf',
+        date: '2024-11-14',
+        author: 'CNCF',
+        coverUrl: '/images/cover/images/cover/tech-landscape-radar.jpg',
+        desc: 'In the CNCF Technology Landscape Radar report released at the North America KubeCon conference in November 2024, CubeFS is positioned in the 'Adopt' category on the technology radar, with a usability score of +40, ranking among the top four.',
+      },
+
     ]
   },
   {
