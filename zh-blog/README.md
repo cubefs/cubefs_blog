@@ -74,6 +74,15 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
         coverUrl: '/images/cover/security_audit_cover.jpg',
         desc: 'CubeFS 宣布完成第三方安全审核， 审核由 Ada Logics 与 CubeFS 维护者、OSTIF 和 CNCF 合作完成。'
       },
+      {
+        title: 'CNCF Report: CubeFS在Batch/AI/ML计算技术领域跻身前四',
+        pdfUrl: 'https://cubefs-rs.heytapdownload.com/website-file/CNCF-Tech-Radar-Custom-Survey-Research-Insights.pdf',
+        type: 'pdf',
+        date: '2024-11-14',
+        author: 'CNCF',
+        coverUrl: '/images/cover/images/cover/tech-landscape-radar.jpg',
+        desc: '在2024年11月北美KubeCon大会上发布的CNCF技术景观雷达报告中，CubeFS在技术雷达的'采用（Adopt）'类别中，实用性评分达+40，跻身前四。',
+      },
     ]
   },
   {
