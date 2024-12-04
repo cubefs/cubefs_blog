@@ -197,6 +197,14 @@ pages: [
         coverUrl: '/images/cover/Introduction_to_CubeFS_quota_features.png',
         desc: 'In storage systems, quotas are a technique for managing and controlling the use of storage resources. They can help system administrators effectively manage storage resources, ensuring their rational allocation and utilization.'
       },
+      {
+        title: 'The Secrets of Kernel File System Technology',
+        filePath: 'technicalInsights/The_Secrets_of_Kernel_File_System_Technology',
+        date: '2024-12-4',
+        author: 'Wu Huocheng',
+        coverUrl: '/images/cover/kernel-client.png',
+        desc: 'An article introducing a kernel-mode client, briefly describing part of the software architecture and the usage method of the client.'
+      },
     ]
   },
   {

@@ -174,6 +174,14 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
         coverUrl: '/images/cover/CubeFS_k8s_csi_history_banner.png',
         desc: '一篇 kubernetes 存储相关的科普文，主要介绍 kubernetes 存储插件协议的演进过程。'
       },
+      {
+        title: '内核文件系统技术揭秘',
+        filePath: 'technicalInsights/The_Secrets_of_Kernel_File_System_Technology',
+        date: '2024-12-04',
+        author: 'Wu Huocheng',
+        coverUrl: '/images/cover/kernel-client.png',
+        desc: '一篇介绍内核态客户端的文章，简要地介绍部分软件架构和客户端的使用方法。'
+      },
     ]
   },
   {
