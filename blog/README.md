@@ -103,7 +103,7 @@ pages: [
         date: '2024-11-14',
         author: 'CNCF',
         coverUrl: '/images/cover/images/cover/tech-landscape-radar.jpg',
-        desc: 'In the CNCF Technology Landscape Radar report released at the North America KubeCon conference in November 2024, CubeFS is positioned in the 'Adopt' category on the technology radar, with a usability score of +40, ranking among the top four.',
+        desc: "In the CNCF Technology Landscape Radar report released at the North America KubeCon conference in November 2024, CubeFS is positioned in the 'Adopt' category on the technology radar, with a usability score of +40, ranking among the top four.",
       },
 
     ]
@@ -296,7 +296,7 @@ pages: [
     children: [
       {
         filePath: 'communityMeetings/meetings',
-        date: '2023-04-13',
+        date: '2024-12-05',
         author: 'CubeFS',
         title: 'Community Meeting Minutes',
         coverUrl: '/images/cover/meeting.png',
