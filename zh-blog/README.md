@@ -265,7 +265,7 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
     children: [
       {
         filePath: 'communityMeetings/meetings',
-        date: '2024-12-05',
+        date: '2024-11-13',
         author: 'CubeFS',
         title: '往期会议纪要',
         coverUrl: '/images/cover/meeting.png',
