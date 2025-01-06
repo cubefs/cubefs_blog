@@ -105,7 +105,14 @@ pages: [
         coverUrl: '/images/cover/tech-landscape-radar.jpg',
         desc: "In the CNCF Technology Landscape Radar report released at the North America KubeCon conference in November 2024, CubeFS is positioned in the 'Adopt' category on the technology radar, with a usability score of +40, ranking among the top four.",
       },
-
+      {
+        title: '2024 Annual Summary',
+        filePath: 'news/2024-summary',
+        date: '2024-12-31',
+        author: 'CubeFS',
+        coverUrl: '/images/cover/2024-summary.jpg',
+        desc: "Summarize the project progress and achievements over the past year, and look ahead to the work for the coming year.",
+      },
     ]
   },
   {
