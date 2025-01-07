@@ -85,7 +85,7 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
       },
       {
         title: '2024年度总结',
-        filePath: 'news/cubefs_2024_summary',
+        filePath: 'news/2024_summary',
         date: '2024-12-31',
         author: 'CubeFS',
         coverUrl: '/images/cover/2024-summary.jpg',
