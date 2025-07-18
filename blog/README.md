@@ -212,6 +212,30 @@ pages: [
         coverUrl: '/images/cover/kernel-client.png',
         desc: 'An article introducing a kernel-mode client, briefly describing part of the software architecture and the usage method of the client.'
       },
+      {
+        title: 'ByConity x CubeFs:  A cloud-native build solution for trillion-scale OLAP platforms',
+        filePath: 'technicalInsights/ByConityXCubeFs',
+        date: '2025-04-22',
+        author: 'Wei Cheng',
+        coverUrl: '/images/cover/ByConityXCubeFs.png',
+        desc: 'A cloud-native build solution for trillion-scale OLAP platforms'
+      }，
+      {
+        title: 'CubeFS helps enable space-based intelligent computing to connect the space computing storage chain',
+        filePath: 'technicalInsights/CubeFSHelpsEnableSpaceBasedIntelligentComputing',
+        date: '2025-05-23',
+        author: 'Space-based Distributed Operating System Project Group, Space-Based Center, Zhijiang Laboratory',
+        coverUrl: '/images/cover/CubeFSHelpsEnableSpaceBasedIntelligentComputing.png',
+        desc: 'CubeFS helps enable space-based intelligent computing to connect the space computing storage chain',
+      },
+      {
+        title: 'CubeFS Operations in Action Series - Distributed caching Best Practices',
+        filePath: 'technicalInsights/DistributedCachingBestPractices',
+        date: '2025-07-03',
+        author: 'Chi He',
+        coverUrl: '/images/cover/DistributedCachingBestPractices.png',
+        desc: 'Distributed caching Best Practices',        
+      },
     ]
   },
   {
