@@ -197,7 +197,7 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
         author: 'Wei Cheng',
         coverUrl: '/images/cover/ByConityXCubeFs.png',
         desc: '介绍基于ByConity和CubeFs的万亿级OLAP平台云原生构建方案'
-      }，
+      },
       {
         title: 'CubeFS助力天基智能计算打通太空计算存储链路',
         filePath: 'technicalInsights/CubeFSHelpsEnableSpaceBasedIntelligentComputing',

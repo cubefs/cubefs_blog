@@ -219,7 +219,7 @@ pages: [
         author: 'Wei Cheng',
         coverUrl: '/images/cover/ByConityXCubeFs.png',
         desc: 'A cloud-native build solution for trillion-scale OLAP platforms'
-      }，
+      },
       {
         title: 'CubeFS helps enable space-based intelligent computing to connect the space computing storage chain',
         filePath: 'technicalInsights/CubeFSHelpsEnableSpaceBasedIntelligentComputing',
