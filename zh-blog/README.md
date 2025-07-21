@@ -190,6 +190,30 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
         coverUrl: '/images/cover/kernel-client.png',
         desc: '一篇介绍内核态客户端的文章，简要地介绍部分软件架构和客户端的使用方法。'
       },
+      {
+        title: 'ByConity x CubeFs:  万亿级OLAP平台云原生构建方案',
+        filePath: 'technicalInsights/ByConityXCubeFs',
+        date: '2025-04-22',
+        author: 'Wei Cheng',
+        coverUrl: '/images/cover/ByConityXCubeFs.png',
+        desc: '介绍基于ByConity和CubeFs的万亿级OLAP平台云原生构建方案'
+      }，
+      {
+        title: 'CubeFS助力天基智能计算打通太空计算存储链路',
+        filePath: 'technicalInsights/CubeFSHelpsEnableSpaceBasedIntelligentComputing',
+        date: '2025-05-23',
+        author: 'Space-based Distributed Operating System Project Group, Space-Based Center, Zhijiang Laboratory',
+        coverUrl: '/images/cover/CubeFSHelpsEnableSpaceBasedIntelligentComputing.png',
+        desc: '介绍CubeFS在天基智能计算中的应用',
+      },
+      {
+        title: 'CubeFS运营实战系列-分布式缓存最佳实践',
+        filePath: 'technicalInsights/DistributedCachingBestPractices',
+        date: '2025-07-03',
+        author: 'Chi He',
+        coverUrl: '/images/cover/DistributedCachingBestPractices.png',
+        desc: 'CubeFS分布式缓存实践',
+      },      
     ]
   },
   {
