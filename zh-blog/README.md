@@ -200,10 +200,10 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
       },
       {
         title: 'CubeFS助力天基智能计算打通太空计算存储链路',
-        filePath: 'technicalInsights/CubeFSHelpsEnableSpaceBasedIntelligentComputing',
+        filePath: 'technicalInsights/CubeFSHelpsIntelligentComputing',
         date: '2025-05-23',
         author: 'Space-based Distributed Operating System Project Group, Space-Based Center, Zhijiang Laboratory',
-        coverUrl: '/images/cover/CubeFSHelpsEnableSpaceBasedIntelligentComputing.png',
+        coverUrl: '/images/cover/CubeFSHelpsIntelligentComputing.png',
         desc: '介绍CubeFS在天基智能计算中的应用',
       },
       {
