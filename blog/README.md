@@ -222,10 +222,10 @@ pages: [
       },
       {
         title: 'CubeFS helps enable space-based intelligent computing to connect the space computing storage chain',
-        filePath: 'technicalInsights/CubeFSHelpsEnableSpaceBasedIntelligentComputing',
+        filePath: 'technicalInsights/CubeFSHelpsIntelligentComputing',
         date: '2025-05-23',
         author: 'Space-based Distributed Operating System Project Group, Space-Based Center, Zhijiang Laboratory',
-        coverUrl: '/images/cover/CubeFSHelpsEnableSpaceBasedIntelligentComputing.png',
+        coverUrl: '/images/cover/CubeFSHelpsIntelligentComputing.png',
         desc: 'CubeFS helps enable space-based intelligent computing to connect the space computing storage chain',
       },
       {
