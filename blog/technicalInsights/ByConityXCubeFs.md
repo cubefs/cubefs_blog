@@ -1,7 +1,3 @@
-# ByConity x CubeFs:  A cloud-native build solution for trillion-scale OLAP platforms
-
-Author | Wei Cheng is Head of Big Data at MetaAPP
-
 Open source components involved
 
 CubeFS | https://github.com/cubefs/cubefs |

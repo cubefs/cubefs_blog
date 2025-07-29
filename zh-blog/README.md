@@ -191,7 +191,7 @@ CubeFS是首个由国人研发并进入CNCF孵化，具备完整的对象及文�
         desc: '一篇介绍内核态客户端的文章，简要地介绍部分软件架构和客户端的使用方法。'
       },
       {
-        title: 'ByConity x CubeFs:  万亿级OLAP平台云原生构建方案',
+        title: 'ByConity x CubeFS:  万亿级OLAP平台云原生构建方案',
         filePath: 'technicalInsights/ByConityXCubeFs',
         date: '2025-04-22',
         author: 'Wei Cheng',

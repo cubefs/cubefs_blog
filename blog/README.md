@@ -213,7 +213,7 @@ pages: [
         desc: 'An article introducing a kernel-mode client, briefly describing part of the software architecture and the usage method of the client.'
       },
       {
-        title: 'ByConity x CubeFs:  A cloud-native build solution for trillion-scale OLAP platforms',
+        title: 'ByConity x CubeFS:  A cloud-native build solution for trillion-scale OLAP platforms',
         filePath: 'technicalInsights/ByConityXCubeFs',
         date: '2025-04-22',
         author: 'Wei Cheng',

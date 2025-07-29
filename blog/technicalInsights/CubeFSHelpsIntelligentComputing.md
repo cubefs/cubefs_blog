@@ -1,7 +1,3 @@
-# CubeFS helps enable space-based intelligent computing to connect the space computing storage chain
-
-Author: Space-based Distributed Operating System Project Group, Space-Based Center, Zhijiang Laboratory
-
 Space-based intelligent computing project refers to the deployment of intelligent computing facilities in space to build space-based intelligent computing infrastructure.
 
 A space computing satellite constellation was launched on a Long March-2F carrier rocket from the Jiuquan Satellite Launch Center at 12:12 a.m. on May 14, marking the official networking stage of China's first orbit interconnected space computing constellation. The first launch of the "three-body calculation constellation" led by Zhijiang Laboratory and the first launch of the "star calculation" program of Guoxing Aerospace.
