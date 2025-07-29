@@ -1,7 +1,3 @@
-# ByConity x CubeFs:  万亿级OLAP平台云原生构建方案
-
-作者｜程伟，MetaAPP 大数据部门负责人
-
 本文涉及开源组件
 
 CubeFS | https://github.com/cubefs/cubefs |

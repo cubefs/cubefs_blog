@@ -1,4 +1,3 @@
-# CubeFS Operations in Action Series - Distributed caching Best Practices
 ## 1 introduction
 CubeFS introduced the feature of distributed cache in version 3.5.1. Distributed cache solves the problem of limited cache capacity and throughput of local single machine by dynamically expanding capacity, and can support petabyte level model training requirements.
 
